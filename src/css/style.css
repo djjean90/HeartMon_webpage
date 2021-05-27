@@ -161,6 +161,12 @@
   margin-top: 68px;
 }
 
+.button_submit {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+}
+
 .advantages {
   min-height: 470px;
   background-color: #f6f6f6;
@@ -218,5 +224,56 @@
   font-size: 18px;
   font-weight: 700;
   color: #0d0d0d;
+}
+
+.consultation {
+  min-height: 680px;
+  background: url(../img/cons_bg.jpg) center center/cover no-repeat;
+  padding: 100px 0 92px 0;
+}
+
+.consultation__header {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.consultation__descr {
+  margin-top: 80px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.feed-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 36px;
+  width: 300px;
+}
+
+.feed-form input {
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 66px;
+  font-weight: 300;
+  color: #4b4b4b;
+}
+
+.feed-form input:nth-child(3) {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
