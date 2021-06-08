@@ -389,6 +389,18 @@
 
 .catalog__content {
   margin-top: 60px;
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.catalog__content_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .catalog-item {
@@ -397,6 +409,7 @@
   border: 2px solid #e8e8e8;
   padding: 20px 20px 26px 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .catalog-item__img {
@@ -529,5 +542,140 @@
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
   margin-right: 20px;
+}
+
+.catalog-item__back {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(calc(-50% - 19px));
+          transform: translateX(calc(-50% - 19px));
+  display: block;
+  color: #c70101;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.catalog-item__back:hover {
+  color: #c70101;
+}
+
+.reviews {
+  padding: 0 0 70px 0;
+}
+
+.reviews__subtitle {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+.reviews__wrapper {
+  margin-top: 70px;
+}
+
+.reviews__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.reviews__item:nth-child(1) {
+  margin-top: 0;
+}
+
+.reviews__logo {
+  margin-right: 60px;
+}
+
+.reviews__name {
+  font-family: "Museo Sans Cyrl";
+  font-size: 18px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+
+.reviews__achieve {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #646464;
+}
+
+.reviews__descr {
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #0d0d0d;
+}
+
+.reviews__descr p {
+  margin-bottom: 0;
+  margin-top: 27px;
+}
+
+.footer {
+  height: 630px;
+  position: relative;
+}
+
+.footer__info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #c70101;
+  width: 460px;
+  height: 270px;
+}
+
+.footer__addr {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.footer__phone {
+  margin-top: 38px;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer__phone:hover {
+  color: #ffffff;
+}
+
+.footer__social {
+  margin: 0 auto;
+  margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 210px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
