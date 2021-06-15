@@ -16,4 +16,14 @@
         font-weight: 500;
         color: #ffffff;
     }
+    .error {
+        text-align: center;
+        border: 1px solid red;
+    }
+    label.error {
+        color:white;
+        border: none;
+        margin-bottom: 15px;
+
+    }
 }

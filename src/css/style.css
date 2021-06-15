@@ -254,6 +254,17 @@
   color: #ffffff;
 }
 
+.consultation .error {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.consultation label.error {
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+}
+
 .feed-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,6 +743,16 @@
 
 .modal_mini {
   min-height: 140px;
+}
+
+.modal .error {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.modal label.error {
+  border: none;
+  margin-bottom: 15px;
 }
 
 #consultation, #thanks, #order {
